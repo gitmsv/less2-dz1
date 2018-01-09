@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 /**
  * @author Sergey Melnyk
- * @date 02.01.2018
+ * @date 09.01.2018
  * @version 1.0.0
  */
 public class Runer {
