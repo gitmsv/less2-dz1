@@ -24,7 +24,7 @@ public class Runer {
         int c;
         int d;
 
-        try (Scanner sc = new Scanner(System.in)) {
+        Scanner sc = new Scanner(System.in);
             System.out.println("Введите первое число: ");
             a = sc.nextInt();
             System.out.println("Введите второе число: ");
@@ -34,9 +34,7 @@ public class Runer {
             System.out.println("Введите четвертое число: ");
             d = sc.nextInt();
             sc.close();
-        }
-
-        System.out.println("Наибольшее число = " + max1(a, b, c, d));
+            System.out.println("Наибольшее число = " + max1(a, b, c, d));
     }
 
     public static int max1(int a, int b, int c, int d) {
